@@ -1,0 +1,68 @@
+.bg-main
+{
+    width:100%;
+height: 100%;
+    position: absolute;
+background-image:url("p2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.bar-one{
+    color:rgb(0, 0, 0);
+    font-size: 200%;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.d-cb{
+    background-color: rgb(58, 46, 27);
+    width:50%;
+}
+.dd-cb{
+    background-color: rgb(237, 237, 237);
+    width:50%;
+    position: relative;
+}
+.contact-button{
+    position: relative;
+    background-color: rgba(10, 10, 120, 0.353);
+    border-radius: 20px;
+}
+.n-ip
+{
+    position: relative;
+    resize: none; /* Prevents the textarea from being resized by the user */
+    height: 25px; /* Set the height of the textarea */
+    width: 200px; /* Set the width of the textarea */
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none; /* Removes the default outline on focus */
+}
+.nn-ip
+{
+    position: relative;
+    color:bisque;
+    font-size: 50px;
+}
+.sub-button{
+    background-color: rgb(136, 32, 32);
+    color:bisque;
+    border-radius: 20px;
+    width:50%;
+    height:50px;
+    font-size: 25px;
+}
+.imgdes{
+    position:relative;
+    justify-content: center;
+}
+.book{
+    position: relative;
+ background-color: rgb(19, 67, 74);
+ color: aliceblue;
+ border: none;
+ 
+}

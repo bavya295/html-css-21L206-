@@ -1,0 +1,11 @@
+.top-des{
+   
+    background-color: rgb(206, 203, 199);
+}
+.content{
+    position: relative;
+   font-family: 'Times New Roman', Times, serif;
+   color: darkslategrey;
+   left:20px;
+   
+}

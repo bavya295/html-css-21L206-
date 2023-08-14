@@ -1,0 +1,26 @@
+.main-style{
+    background-color: black;
+    width: 1600px;
+    height:35px;
+    position: absolute;
+}
+.fbu{
+    position: relative;
+    background-color: black;
+    color: aliceblue;
+    border-color: aliceblue;
+}
+.button-s{
+    position: relative;
+    background-color: rgb(219, 207, 99);
+    width: 200px;
+    height:60px;
+    font-size: 100%;
+    top:-100px;
+    left:700px;
+}
+.image{
+    position: relative;
+    top:700px;
+    left:200px;
+}

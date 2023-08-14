@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FreeBeeplanner.com</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <!-- Add Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Add Bootstrap JS (and jQuery if not already included) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    </head>
+    <body class="bg-main">
+        <h1 style="color:rgb(186, 68, 101);font-size: 500%;font-style: italic;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;position: relative;">FreeBee Planner</h1>
+       
+        <h2 style=" color:rgb(57, 63, 40);font-size: 190%;position: relative;top: 25px;">We are here to Plan your family Foreign trip!     Choose your type of plan </h2>
+        <br><br>
+        <br>
+        <div class="d-cb">
+                    <nav class="navbar navbar-dark bg-primary">
+            <a class="bar-one"href="day.html">
+                Day trip
+            </a>
+        </nav>
+        </div>
+        <br>
+        <div class="d-cb">
+            <nav class="navbar navbar-dark bg-primary">
+    <a class="bar-one"href="week.html">
+        Week trip
+    </a>
+</nav>
+</div>
+<br>
+<div class="d-cb">
+    <nav class="navbar navbar-dark bg-primary">
+       
+<a class="bar-one"href="year.html">
+
+        
+Month trip
+</a>
+
+</nav>
+</div>
+<h2 style=" color:rgba(255, 255, 255, 0.974);font-size: 190%;position: relative;top: 25px;">Click below to see Gallery of our customers trip </h2>
+<br>
+<div class="dd-cb">
+    <nav class="navbar navbar-dark bg-primary">
+<a class="bar-one"href="gallery.html">
+Gallery
+</a>
+</nav>
+
+</div>
+<br>
+<h2 style="color:aliceblue">To Fill Contact Form</h2>
+<br>
+<div class="container">
+    <!-- Trigger the modal with a link -->
+    <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-primary">Contact Form</a>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-header">
+                <h1 style="color: azure">Fill it!</h1>
+            </div>
+            <div class="modal-body">
+                <form id="contactForm"> 
+                    <div class="form-group">
+                        <label class="nn-ip" for="Name">Name:</label>
+                        <input class="form-control" type="text" id="Name" name="Name" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label class="nn-ip" for="Email">Email:</label>
+                        <input class="form-control" type="email" id="Email" name="Email" placeholder="Enter email">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <!-- Use JavaScript to submit the form on button click -->
+                <button type="button" style="background-color: rgb(70, 9, 9); color: azure" class="btn" onclick="submitForm()">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function submitForm() {
+        // Get the form element
+        var form = document.getElementById("contactForm");
+        
+        // You can add form validation here before submitting if needed
+        
+        // Submit the form
+        form.submit();
+    }
+</script>
+
+
+    </body>
+</html>
